@@ -63,7 +63,7 @@ function diferencia() {
     let formatoCorrecto;
     do{
         fecha1 = window.prompt("Introduce una fecha (dd-mm): ");
-        fecha1 = window.prompt("Introduce otra fecha (dd-mm): ");
+        fecha2 = window.prompt("Introduce otra fecha (dd-mm): ");
         formatoCorrecto = compruebaFormato(fecha1) && compruebaFormato(fecha2);
         if(!formatoCorrecto) {
             alert('Formato de fechas incorrecto!');
